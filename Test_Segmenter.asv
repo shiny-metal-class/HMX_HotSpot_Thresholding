@@ -1,0 +1,3 @@
+[IMG_name,IMG_path] = uigetfile('*.tiff');
+IMG = imread(IMG);
+[BW,maskedImage] = HS_Segment_20200317(IMG);
